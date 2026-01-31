@@ -1,0 +1,25 @@
+In Java, a String is an object that represents a sequence of characters.
+Strings are immutable, which means once created, they cannot be changed.
+String name = "Ritesh";
+
+Ways to Create String:
+String s1 = "Java";             
+String s2 = new String("Java");
+******************************************************************************
+Ex code:
+
+public class StringClassDemo {
+
+    public static void main(String[] args) {
+
+        String str1 = "Java Programming";
+        String str2 = "java programming";
+        String str3 = "Hello Java";
+System.out.println(str1);        //Java Programming
+System.out.println(str2);       //java programming
+System.out.println(str3);      //Hello Java
+      }
+}
+
+
+
