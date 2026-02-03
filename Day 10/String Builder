@@ -1,0 +1,45 @@
+Java StringBuilder Example:
+ Methods Covered:
+append()
+insert()
+replace()
+delete()
+reverse()
+length()
+charAt()
+------------------------------------------------------------------------------------------
+code ex:-
+
+public class StringBuilderDemo {
+
+    public static void main(String[] args) {
+
+        StringBuilder sb = new StringBuilder("Java");
+
+        // append()
+        sb.append(" Backend");
+        System.out.println("After append: " + sb);
+
+        // insert()
+        sb.insert(4, " Developer");
+        System.out.println("After insert: " + sb);
+
+        // replace()
+        sb.replace(0, 4, "Core Java");
+        System.out.println("After replace: " + sb);
+
+        // delete()
+        sb.delete(0, 5);
+        System.out.println("After delete: " + sb);
+
+        // reverse()
+        sb.reverse();
+        System.out.println("After reverse: " + sb);
+
+        // length()
+        System.out.println("Length: " + sb.length());
+
+        // charAt()
+        System.out.println("Char at index 2: " + sb.charAt(2));
+    }
+}
