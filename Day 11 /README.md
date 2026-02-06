@@ -1,10 +1,13 @@
-##Class and Object in Java
-#Class
+# Class and Object in Java
 
-A class is a blueprint or template used to create objects.
-It defines properties (variables) and behaviors (methods).
+A **class** is a blueprint used to create objects.  
+An **object** is an instance of a class that holds actual data.
 
-#Object
+## Key Points
+- Class defines variables and methods
+- Object is created using the `new` keyword
+- Object occupies memory, class does not
+- One class can create multiple objects
 
-An object is an instance of a class.
-It represents a real-world entity and can access class members.
+## Goal
+Understanding the basics of Object-Oriented Programming in Java.
