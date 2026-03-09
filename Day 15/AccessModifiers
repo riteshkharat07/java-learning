@@ -1,0 +1,23 @@
+class Student {
+
+    public String name = "Ritesh";
+    private int age = 22;
+    protected String course = "Java";
+    String city = "Pune"; // default access
+
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Course: " + course);
+        System.out.println("City: " + city);
+    }
+}
+
+public class AccessModifierDemo {
+
+    public static void main(String[] args) {
+
+        Student s = new Student();
+        s.display();
+    }
+}
