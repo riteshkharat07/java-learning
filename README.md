@@ -12,6 +12,19 @@ Each folder represents concepts learned on a particular day.
 - day-06 : While and Do-While Loops
 - day-07 : Control Statements
 - day-08 : Array programs and examples
+- day-09 : String Methods and String Class
+- day-10 : String Builder
+- day-11 : Class and Object
+- day-12 : Constructors using this keyword
+- day-13 : Inheritance and Polymorphism
+- day-14 : Abstraction and Encapsulation
+- day-15 : Access Modifiers
+- day-16 : Exception Handling
+- day-17 : Collection Framework
+- day-18 : Multithreading
+- day-19 : File Handling
+- day-20 : Java 8 Features
+- day-21 : JDBC
 
 ## Topics Covered
 - Java syntax and basics
